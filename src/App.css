@@ -1,6 +1,17 @@
+/*navbar*/
+
+nav .brand-logo {color: black;}
+
+/*lista*/
+.itemLista {text-align: center;  margin-top: 3%;}
+
+
+/*logo carrito*/
 .btn-floating {background-color: black;}
 .brand-logo {margin-left: 15px;}
 
-.itemLista {text-align: center;  margin-top: 3%;}
 
-nav .brand-logo {color: black;}
+/*carrito*/
+.row .col.m3 {margin-left: 38%;}
+.contador {margin-right: 10%; margin-left: 10%;}
+.btn, .btn-large, .btn-small {background-color: rgb(0, 103, 121);}
