@@ -1,6 +1,6 @@
 import React from "react";
-import CartWidget from "../CartWidget/index"
-
+import CartWidget from "../CartWidget/index";
+import {Link} from "react-router-dom";
 export const NavBar = () => { return ( 
 
  <div>  
@@ -11,12 +11,15 @@ export const NavBar = () => { return (
 
       <nav>
     <div class="nav-wrapper">
-      <a href="" class="brand-logo">Gea Aromas</a>
+     <Link to="/" class="brand-logo">Gea Aromas</Link>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
     
-        <li><a href="">Envios</a></li>
-        <li><a href="">Contactanos</a></li>
-        <li><a href="">Productos</a></li>
+
+      <li><Link to="/" >Envios</Link></li>  
+      <li><Link to= {"/category/detalle"  } >Detalle</Link></li> 
+      <li><Link to={"/category/lista"  }  >Lista</Link></li> 
+     
+    
         <li> <CartWidget/> </li>   
       </ul>
     </div>
