@@ -10,7 +10,7 @@ const agregar = () => { setCount (count + 1 )  ;  };
 
 const remover = () => { setCount (count - 1 ) ;   };
 
-
+const añadirCarrito = ()=> { alert("usted ah seleccionado "+ (count)+ " productos")};
 
     return (
         <div class="row">
@@ -44,6 +44,7 @@ const remover = () => { setCount (count - 1 ) ;   };
         <button class="waves-effect waves-light btn" type="button" onClick= {()=> onAdd (count)} >
                                                                     Agregar al carrito</button>
         
+
         </div>
          </div>
         </div>
